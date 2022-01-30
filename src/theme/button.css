@@ -1,0 +1,17 @@
+#btn {
+    position: absolute;
+    width: 502px;
+    height: 50px;
+    background: #2196F3;
+    border-radius: 5px;
+    left: 355px;
+    top: calc(5% - 50px/2 + 600px);
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}

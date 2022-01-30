@@ -1,0 +1,42 @@
+.top_menu {
+    position: absolute;
+    width: 168px;
+    height: 50px;
+    border: 1px solid #DFE5EC;
+    top: 160px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+
+.top_menu_b1 {
+    background: #2196F3;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+    left: 355px;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    cursor: url("../img/cursor.png"), auto;
+}
+
+.top_menu_b2 {
+    background: #F1FCFF;
+    box-sizing: border-box;
+    left: 522px;
+    font-family: 'Open Sans', sans-serif;
+    color: #4A4A4A;
+    cursor: url('../img/cursor.png'), auto;
+}
+
+.top_menu_b3 {
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    left: 689px;
+    font-family: 'Open Sans', sans-serif;
+    color: #4A4A4A;
+    cursor: url('../img/cursor.png'), auto;
+}
