@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import "theme/offer.css";
+@import "theme/header.css";
+@import "theme/button.css";
+@import "theme/topMenu.css";
+@import "theme/filter-stop.css";
+@import "theme/filter-company.css";
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    width: 960px;
+    height: 1350px;
+    background: #F3F7FA;
+    overflow-x: hidden;
+}
+/*Main logo*/
+.logo{
+    position: absolute;
+    left: 46.88%;
+    right: 46.88%;
+    top: 3.7%;
+    bottom: 91.85%;
+}
+
+.ticket-container {
+    position: relative;
+    left: 355px;
+    width: 502px;
+    height: 184px;
+    margin-bottom: 20px;
+    /*right: 103px;*/
+    /*top: 230px;*/
+    /*bottom: 936px;*/
+
+    background: #FFFFFF;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    text-align: center;
+}
+
+
+
+

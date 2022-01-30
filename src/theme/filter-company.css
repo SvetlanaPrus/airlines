@@ -1,0 +1,60 @@
+.filter-company {
+    position: absolute;
+    width: 232px;
+    height: 177px;
+    left: calc(50% - 232px/2 - 261px);
+    top: calc(50% - 177px/2 - 154.5px);
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+    background: #FFFFFF;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.filter-company .title {
+    width: 192px;
+    height: 20px;
+    /*border: 1px solid #9ABBCE;*/
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.5px;
+    color: #4A4A4A;
+}
+
+.filter-company .unit {
+    width: 192px;
+    height: 20px;
+    /*border: 1px solid #9ABBCE;*/
+
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+}
+
+.filter-company .unit #radiobox {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.filter-company .unit #text {
+    width: 112px;
+    height: 20px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: #4A4A4A;
+}
